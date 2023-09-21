@@ -1,0 +1,77 @@
+:root {
+    --primary: #33A037;
+    --light: white;
+    --primary-font: 'montserrat';
+    --title-font: 'montez';
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: var(--primary-font);
+}
+
+/*NAVBAR*/
+
+nav {
+    background-color: var(--primary);
+    display: block;
+    padding-bottom: 1rem;
+}
+
+nav h1 {
+    color: var(--light);
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: 4rem;
+    padding-bottom: 0.5rem;
+}
+
+
+nav ul {
+    list-style-type: none;
+    width: 100vw;
+}
+
+.nav-menu {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+a {
+    color: var(--light);
+    text-decoration: none;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+a :hover {
+    background-color: var(--light);
+    color: var(--primary);
+}
+
+
+/*FOOTER*/
+
+footer {
+    background: var(--primary);
+    color: var(--light);
+    display: inline-flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+footer ul {
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+footer ul a {
+    color: var(--light);
+    text-decoration: none;
+}

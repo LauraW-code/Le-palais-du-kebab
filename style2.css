@@ -1,0 +1,45 @@
+:root {
+    --primary: #33A037;
+    --light: white;
+    --primary-font: 'montserrat';
+    --title-font: 'montez';
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: var(--primary-font);
+}
+
+nav {
+    background-color: var(--primary);
+    display:flex;
+    justify-content: space-around;
+}
+
+nav h1 {
+    color: var(--light);
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: 4rem;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    justify-content: space-around;
+}
+
+a {
+    color: var(--light);
+    text-decoration: none;
+}
