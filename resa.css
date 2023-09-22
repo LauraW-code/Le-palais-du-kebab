@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary:#33A037;
+}
+body {
+    font-family: 'Montserrat';
+    margin:0;
+}
+/* header */
+header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+    background-image: url("https://github.com/PALVAREZ67/Le-palais-du-kebab/blob/master/pictures/doner-2863915_1920%20v2.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: #fff;
+    padding: .5rem;
+}
+h4 {
+    font-family: 'Montserrat';
+    color: var(--primary);
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 2em;
+}
+main {
+    font-family: 'Montserrat';
+    margin: 0;
+    line-height: 1.5;
+    background-color:#fff;
+}
+h2 {
+    font-family: 'Montez';
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2em;
+    margin-bottom: 2rem;
+}
+Form {
+    text-align: left;
+    margin:auto;
+    width: 40em;
+}
+label {
+    display: block;
+    padding-top:1em;
+    padding-bottom: 0.2em;
+    font-weight:normal;
+}
+input, textarea{
+    display: inline-block;
+    padding: .5rem;
+    margin: 0 .5rem 1rem;
+    border-radius: .5rem;
+    background-color: #fff;
+    box-shadow: -2px 5px 10px rgb(0 0 0 / 20%);
+}
+button {
+    background: var(--primary);
+    color:#fff;
+    border-radius: 10px;
+    padding:12px;
+    font-weight:normal;
+    margin-top:1em;
+    margin-bottom: 4rem;
+    box-shadow: -2px 5px 10px rgb(0 0 0 / 20%);
+}
