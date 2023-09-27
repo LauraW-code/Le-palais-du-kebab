@@ -1,0 +1,29 @@
+main {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+section {
+    padding-right: 80vh;
+    padding-left: 80vh;
+    text-justify: auto;
+}
+
+#kebab {
+    width: 70%;
+    height: 50vh;
+}
+
+#SaltBae {
+    width: 450px;
+    height: 400px;
+}
+
+.loading {
+    margin: 0;
+    padding-top: 60px;
+    background-color: #3B3E40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
