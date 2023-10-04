@@ -1,0 +1,99 @@
+
+/*Team-page*/
+
+
+.h2-team{
+    font-family: var(--title-font);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    text-align: center;
+    padding: calc(var(--padding)*1.5);
+    font-size: calc(var(--font-size)*3.5);
+ }
+ .maitre-kebabier{
+    background-color: var(--background-color);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: calc(var(--padding)*3);
+ }
+ .maitre-kebabier img{
+     width: 175px;
+     cursor: pointer;
+     height: 175px;
+     padding: var(--padding);
+ }
+ .maitre-kebabier p{
+   text-align: center;
+ }
+ .team-images{
+    background-color: var(--background-color);
+     display: none;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: var(--padding);
+ }
+ .item-team{
+     width: 300px;
+     cursor: pointer;
+     text-align: center;
+ }
+ .item-team img{
+    padding-top: calc(var(--padding));
+     width: 175px;
+     height: 175px;
+ }
+ .item-team p{
+    padding: calc(var(--padding)) 0;
+ }
+ .carousel{
+    background-color: var(--background-color);
+    gap: 2rem;
+ }
+ .card-title{
+    color: #4a4a4a;
+    padding-bottom: calc(var(--padding)*2);
+    font-family: var(--title-font);
+    font-size: calc(var(--font-size)*2.5);
+    text-align: center;
+ }
+ .carousel-items {
+     display: flex;
+     overflow-x: scroll;
+     scroll-snap-type: none;
+     padding-bottom: calc(var(--padding)*1);
+ }
+ .carousel-item {
+    flex: 1 0 250px;
+    scroll-snap-align: center;
+    text-align: center;
+    margin:  0 calc(var(--margin)*0.5);
+ }
+ .carousel-item img{
+    padding: 0 0 var(--padding) 0;
+    width: 150px;
+    height: 150px;
+ }
+ .card-content p{
+    color: var(--text-color);
+ }
+
+@media screen and (max-width: 768px) {
+    .maitre-kebabier{
+        padding-bottom: calc(var(--padding));
+    }
+    .maitre-kebabier p{
+        display: none;
+    }
+    .team-images{
+    display: flex;
+    }
+    .carousel{
+    display: none;
+    }
+    .card-title{
+        padding-bottom: 0;
+    }
+}
+ 
