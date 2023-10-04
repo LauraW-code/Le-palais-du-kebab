@@ -10,19 +10,8 @@
     <link rel="stylesheet" href="main_resa.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
-    <nav>
-        <img/>
-        <h1>Le Palais du Kebab</h1>
-        <ul class="nav-menu">
-            <li><a href="/menu.htlm">Menu </a></li>
-            <li><a href="/Reservation.html">Réservation</a></li>
-            <li><a href="/Engagements.html">Nos engagements</a></li>
-            <li><a href="/team.html">La team</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</head>
-<body>
+
+<body class="body_resa">
     <header class="table">
         
     </header>
@@ -39,7 +28,7 @@
         <form id="resaForm" action="/resa_conf.php" method="POST">
             <div class='reservation'>       
                 <div>
-                    <label for="date_heure">Date & heure</label>
+                    <label class="label_resa" for="date_heure">Date & heure</label>
                     <input   
                     type="datetime-local"
                     id="meeting-time"
@@ -52,7 +41,7 @@
                 </div>
                 <?php $select = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];?>
                 <div class="personnes">
-                    <label>Nb personnes</label>
+                    <label class="label_resa">Nb personnes</label>
                     <select name="personnes" required aria-required="true" data-selected>
                     <option value="">Nb personnes</option>;
                     <?php
@@ -66,19 +55,19 @@
             <section class="contact">
             <h2 class="subtitle_resa">Vos coordonnées</h2>
             <div>
-                <label for="name">Nom</label>
+                <label class="label_resa" for="name">Nom</label>
                 <input type="text" name="name" placeholder="Nom" required />
             </div>
             <div>
-                <label for="email">Adresse de messagerie</label>
+                <label class="label_resa" for="email">Adresse de messagerie</label>
                 <input typetype="email" name="email" size="30" placeholder="Email" required />
             </div>
             <div>
-                <label for="phone">N° Téléphone</label>
+                <label class="label_resa" for="phone">N° Téléphone</label>
                 <input type="tel" name="phone" placeholder="Téléphone" required>
             </div>
             <div class="form-submit">
-            <button type="submit">Demande de réservation</button>
+            <button class="button_resa" type="submit">Demande de réservation</button>
             </div>
         </section>
         </form>
@@ -92,13 +81,6 @@
         </script> -->
     </main>
     <br/> <br/>
-    <footer>
-        &#169;Le palais du Kebab
-       <ul>
-           <li><a href=https://facebook.com><img src="pictures/facebook.svg"></a></li>
-           <li><a href=https://instagram.com><img src="pictures/instagram.svg" width="60%"></a></li>
-       </ul>
-   </footer>
 </body>
 
 </html>
