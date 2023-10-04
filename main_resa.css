@@ -1,0 +1,154 @@
+:root {
+    --primary: #33A037;
+    --light: white;
+    --background-color: #faf0de;
+    --text-color:#4A4A4A;
+    --primary-font: 'montserrat';
+    --title-font: 'montez';
+    --padding:1rem;
+    --margin:1rem;
+    --font-size:1rem;
+}
+/* CSS général de la page */
+main {
+    font-family: var(--primary-font);
+    margin: 0;
+    line-height: 1.5;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+body {
+    font-family: var(--primary-font);
+    margin:0;
+    background-color: var(--background-color);
+}
+/* header */
+.table {
+    background-image: url(pictures/table.jpg);
+    background-size: cover;
+    width:100%;
+    height: 400px;
+}
+/* Titre page */
+.title-resa {
+    font-family: var(--title-font);
+    color: var(--text-color);
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 2em;
+    margin-bottom: 2rem;
+}
+/* Texte d'introduction */
+.introduction {
+    text-align: left;
+    margin:auto;
+    width: 35em;
+    margin-bottom: 2rem;
+}
+/* Sous-titres */
+.subtitle-resa {
+    font-family: var(--primary-font);
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+/* Formulaire de réservation */
+Form {
+    text-align: left;
+    margin:auto;
+    width: 28em;
+}
+.reservation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top:1em;
+    padding-bottom: 0.2em;
+    font-weight:normal;
+    margin-bottom: 3rem;
+}
+.personnes {
+    margin-left: 4rem;
+}
+#contact {
+    display: flex;
+    padding-top:1em;
+    padding-bottom: 0.2em;
+    font-weight:normal;
+}
+label {
+    display: block;
+    padding-top:1.5em;
+    padding-bottom: 0.5em;
+    font-weight:normal;
+}
+input, textarea{
+    display: block;
+    padding: var(--padding);
+    border-radius: .5rem;
+    background-color: var(--light);
+    box-shadow: -2px 3px 5px rgb(0 0 0 / 20%);
+    border: none;
+}
+select {
+    padding: var(--padding);
+    border-radius: .5rem;
+    background-color: var(--light);
+    box-shadow: -2px 5px 10px rgb(0 0 0 / 20%);
+    border: none;
+}
+button {
+    background: var(--primary);
+    color:var(--light);
+    border-radius: 10px;
+    padding:12px;
+    font-weight:bold;
+    margin-top:3em;
+    margin-bottom: 4rem;
+    box-shadow: -2px 5px 10px rgb(0 0 0 / 20%);
+    border: none;
+    cursor: pointer;
+}
+
+/* Message de confirmation */
+.confirmation {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .title-resa {
+        font-size: 4rem;
+    }
+    .subtitle-resa {
+        font-size: 1.5rem;
+    }
+    .table {
+        width:100%;
+        background-position: center;
+        height: 200px;
+    }
+    .introduction {
+        width: 20em;
+    }
+    Form {
+        width: 22em;
+    }
+    .personnes {
+        margin-left: 1rem;
+    }
+    .confirmation {
+        padding: 2rem;
+    }
+}
