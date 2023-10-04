@@ -1,0 +1,22 @@
+
+footer {
+    background: var(--primary);
+    color: var(--light);
+    display: inline-flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: var(--padding);
+    padding-top: var(--padding);
+    padding-bottom: calc(var(--padding)*0.5);
+}
+
+footer ul {
+    display: inline-flex;
+    align-items: center;
+}
+
+footer ul a {
+    padding-left: var(--padding);
+    color: var(--light);
+}
