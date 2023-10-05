@@ -1,34 +1,9 @@
-<!DOCTYPE html>
-
-<html lang="fr">
-
-<head>
-    <meta charset="utf-8">
-    <title> Le Palais du Kebab</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="general.css" <link rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/montez" rel="stylesheet">
-</head>
 
 <body>
-    <nav>
-
-        <h1>Le Palais du Kebab</h1>
-        <ul class="nav-menu">
-            <li><a class="nav-link" href="/menu.htlm">Menu </a></li>
-            <li><a class="nav-link" href="resa.html">Réservation</a></li>
-            <li><a class="nav-link" href="/Engagements.html">Nos engagements</a></li>
-            <li><a class="nav-link" href="/team.html">La team</a></li>
-            <li><a class="nav-link" href="/contact.html">Contact</a></li>
-        </ul>
-
-    </nav>
-
     <div class="boite">
         <main>
-            <div class="container">
-                <ul class="carousel">
+            <div class="container-home">
+                <ul class="carousel-home">
                     <li> <img src="pictures/carousel 4.jpg"> </li>
                     <li> <img src="pictures/carousel 5.jpg"> </li>
                     <li> <img src="pictures/carousel 6.jpg"> </li>
@@ -37,10 +12,10 @@
             </div>
             <script src="script-general2.js"> </script>
             <br> <br>
-            <h2 class="titre2"> Bienvenu au Palais du Kebab </h2>
+            <h2 class="titre2-home"> Bienvenu au Palais du Kebab </h2>
             <br>
             <br>
-            <p class="texte"> Votre repas 100% BIO vous attends avec impatience ! </p>
+            <p class="texte-home"> Votre repas 100% BIO vous attends avec impatience ! </p>
             <br>
             <br>
 
@@ -49,7 +24,7 @@
 
 
             <section>
-                <p class="texte"> Créé à l'origine en 1990 par Yavuz, notre restaurant c'est immédiatement démarqué par
+                <p class="texte-home"> Créé à l'origine en 1990 par Yavuz, notre restaurant c'est immédiatement démarqué par
                     la qualité et
                     l'orgine bio de ses produits. </p>
                 <br>
@@ -61,7 +36,7 @@
             </section>
             <section>
                 <br> <br>
-                <p class="texte"> Notre équipe est prête à vous accueillir dans le meilleur restaurant-kebab de
+                <p class="texte-home"> Notre équipe est prête à vous accueillir dans le meilleur restaurant-kebab de
                     ........................</p>
                 <br> <br>
 
@@ -77,7 +52,7 @@
         </main>
         <aside>
 
-            <a class="box1" href="resa.html">
+            <a class="broche" href="resa.php">
                 <svg viewBox="0 0 51 302" version="1.1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" width="60px">
                     <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
@@ -149,19 +124,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
     <script src="./script-general.js"></script>
-    <div class="box2">
-        <p class="texte"> Réservation </p>
+    
+        <p class="texte-home"> Réservation </p>
 
         </aside>
-    </div>
-
-    <footer>
-        &#169;Le palais du Kebab
-        <ul>
-            <li><a href=https://facebook.com><img src="pictures/facebook.svg"></a></li>
-            <li><a href=https://instagram.com><img src="pictures/instagram.svg" width="60%"></a></li>
-        </ul>
-    </footer>
-</body>
-
-</html>

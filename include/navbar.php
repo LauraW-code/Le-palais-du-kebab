@@ -9,7 +9,7 @@
         <link href="https://fonts.cdnfonts.com/css/montez" rel="stylesheet">
         <script src="script.js" defer></script>
         <nav>
-        <?php include 'data-team.php' ?>
+        <?php include 'navarLinks.php' ?>
             <a href="/menu.html">
             <img src="/pictures/LogoPKv2.png" width="100px">
             </a>

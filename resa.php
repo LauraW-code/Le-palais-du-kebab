@@ -1,5 +1,5 @@
 <?php
 include __DIR__ . '/include/navbar.php';
-require 'main-Contact.php';
+require 'main_resa.php';
 include __DIR__ . '/include/footer.php'
 ?>

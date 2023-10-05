@@ -1,9 +1,3 @@
-:root {
-    --primary: #33A037;
-    --light: white;
-    --primary-font: 'montserrat';
-    --title-font: 'montez';
-}
 
 .boite {
     display: flex;
@@ -25,7 +19,7 @@ main {
     max-width: 100%;
 }
 
-.carousel {
+.carousel-home {
     display: flex;
     transition: transform 0.5s ease;
     list-style: none;
@@ -33,12 +27,12 @@ main {
 
 }
 
-.carousel li {
+.carousel-home li {
     flex: 0 0 100%;
     margin-right: 0px;
 }
 
-.carousel img {
+.carousel-home img {
     min-width: 50%;
     max-width: 100%;
     min-height: 50vh;
@@ -86,10 +80,10 @@ main {
 }
 
 
-.titre2 {
+.titre2-home {
     font-family: var(--title-font);
 }
 
-.texte {
+.texte-home {
     font-family: var(--primary-font);
 }
