@@ -1,0 +1,127 @@
+@media screen and (max-width: 1000px) {
+
+    /* Supression de la seconde image */
+    .image1 {
+        display: none;
+    }
+
+    .image {
+        max-width: 50%;
+    }
+
+    /* Premier Bloc */
+    .tomate {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        max-height: 2000px;
+    }
+
+    .boxB {
+        display: flex;
+        justify-content: center;
+    }
+
+    .boxH {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+
+
+    /* Second Bloc */
+
+    .salade {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        max-height: 2000px;
+    }
+
+    .boxF {
+        display: flex;
+        justify-content: center;
+    }
+
+    .boxH {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    /* Troisième Bloc */
+
+    .pain {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        max-height: 2000px;
+    }
+
+    .boxJ {
+        display: flex;
+        justify-content: center;
+    }
+
+    .boxL {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    /* Quatrième Bloc */
+
+    .viande {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        max-height: 2000px;
+    }
+
+    .boxO {
+        display: flex;
+        justify-content: center;
+    }
+
+    .boxP {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    /* Cinquième Bloc */
+
+    .frite {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        max-height: 2000px;
+    }
+
+    .boxR {
+        display: flex;
+        justify-content: center;
+    }
+
+    .boxT {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}

@@ -1,0 +1,106 @@
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+    .image1 {
+        display: none;
+    }
+
+    /* Tomate */
+    .tomate {
+        width: 80%;
+        max-height: 2000px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 25px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .boxA {
+        padding-bottom: 0;
+        padding-left: 15px;
+    }
+
+    /* Salade */
+    .salade {
+        width: 80%;
+        max-height: 2000px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 25px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .boxE {
+        padding-bottom: 0;
+        padding-left: 15px;
+    }
+
+    /* pain */
+
+    .pain {
+        width: 80%;
+        max-height: 2000px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 25px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .boxI {
+        padding-bottom: 0;
+        padding-left: 15px;
+    }
+
+    /* Viande */
+    .viande {
+        width: 80%;
+        max-height: 2000px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 25px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .boxM {
+        padding-bottom: 0;
+        padding-left: 15px;
+    }
+
+    /* Frite */
+    .frite {
+        width: 80%;
+        max-height: 2000px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 25px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .boxQ {
+        padding-bottom: 0;
+        padding-left: 15px;
+    }
+}
