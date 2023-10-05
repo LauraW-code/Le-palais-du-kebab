@@ -5,7 +5,7 @@
     <link href="https://fonts.cdnfonts.com/css/montez" rel="stylesheet">
 </head>
 
-<body>
+<body class="contact-body">
     <?php
     include 'data_contact.php';
     ?>
