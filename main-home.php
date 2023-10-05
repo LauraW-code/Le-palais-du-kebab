@@ -1,7 +1,7 @@
 
 <body>
     <div class="boite">
-        <main class="boite-main-home">
+        <main>
             <div class="container-home">
                 <ul class="carousel-home">
                     <li> <img src="pictures/carousel 4.jpg"> </li>
@@ -15,7 +15,7 @@
             <h2 class="titre2-home"> Bienvenu au Palais du Kebab </h2>
             <br>
             <br>
-            <p class="texte-home"> Votre repas 100% BIO vous attends avec impatience ! </p>
+            <p class="texte-home"> Yavouz et son équipe sont heureux de vous accueillir au Palais du Kebab ! </p>
             <br>
             <br>
 
@@ -24,22 +24,16 @@
 
 
             <section>
-                <p class="texte-home"> Créé à l'origine en 1990 par Yavuz, notre restaurant c'est immédiatement démarqué par
-                    la qualité et
-                    l'orgine bio de ses produits. </p>
-                <br>
+                <p class="texte-home"> Notre restaurant avec sa salle et sa terasse est l'endroit idéal pour déguster nos produits de qualité et 100% bio ! </p>
                 <br>
                 <br>
                 <img
-                    src="pictures/2023-09-29 06_55_41-Premium Photo _ Photo a stunning shot of a business person with offical office a.png">
+                   class="home-photo" src="pictures/2023-09-29 06_55_41-Premium Photo _ Photo a stunning shot of a business person with offical office a.png">
                 <br>
             </section>
             <section>
-                <br> <br>
-                <p class="texte-home"> Notre équipe est prête à vous accueillir dans le meilleur restaurant-kebab de
-                    ........................</p>
-                <br> <br>
-
+                <br> 
+                <p class="texte-home"> Notre équipe est prête à vous accueillir dans le meilleur restaurant-kebab de Paris  </p>
                 <br>
                 <br>
             </section>
@@ -51,11 +45,9 @@
 
         </main>
         <aside>
-
-            <a class="broche" href="resa.php">
-                <svg viewBox="0 0 51 302" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              <a class="broche" href="resa.php">
+               <svg viewBox="0 0 51 302" version="1.1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" width="60px">
-                    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
                     <title>loading-kebab</title>
                     <desc>Created with Sketch.</desc>
                     <defs>
@@ -118,13 +110,13 @@
                         </g>
                     </g>
                 </svg>
+                <p class="texte-home"> Réservation </p>
             </a>
+            
+        </aside>
     </div>
-    <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
     <script src="./script-general.js"></script>
     
-        <p class="texte-home"> Réservation </p>
-
-        </aside>
+       
