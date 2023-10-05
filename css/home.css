@@ -1,10 +1,9 @@
-
 .boite {
     display: flex;
     align-items: center;
 }
 
-.boite-main-home{
+main {
     flex: 1;
     margin-top: 2vh;
     text-align: center;
@@ -16,7 +15,14 @@
     margin: 0 auto;
     position: relative;
     height: 50vh;
-    max-width: 100%;
+    width: 60vh;
+}
+
+@media screen and (max-width:768px) {
+    .container-home {
+        height: 50vh;
+        width: 60vh;
+    }
 }
 
 .carousel-home {
@@ -33,24 +39,36 @@
 }
 
 .carousel-home img {
-    min-width: 50%;
     max-width: 100%;
     min-height: 50vh;
     max-height: 50vh;
 }
 
+@media screen and (max-width:768px) {
+    .carousel-home img {
+        width: 100%;
+        min-height: 50vh;
+        max-height: 50vh;
+    }
+}
+
+.home-photo {
+    width: 60%;
+}
+
 .broche {
+    flex-direction: column-reverse;
     flex: 0;
     position: fixed;
     top: 15%;
     right: 5%;
-    width: 22vh;
+    width: 25vh;
     height: 40vh;
     border-radius: 50% 50% 50% 50% / 25% 25% 75% 75%;
     background: linear-gradient(90deg, #faf0de, #A64F07);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     color: white;
     z-index: 1;
     text-align: center;
@@ -64,11 +82,24 @@
     }
 }
 
-
 .titre2-home {
     font-family: var(--title-font);
+    font-size: 4rem;
 }
 
 .texte-home {
     font-family: var(--primary-font);
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 15vh;
+    padding-right: 15vh;
+}
+
+@media screen and (max-width:768px) {
+    .texte-home {
+        font-size: 22px;
+        padding-bottom: 0px;
+        padding-top: 70px
+    }
 }
