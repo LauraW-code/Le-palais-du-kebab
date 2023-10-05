@@ -1,0 +1,266 @@
+:root {
+    --primary: #33A037;
+    --light: white;
+    --background-color: #faf0de;
+    --text-color: #4A4A4A;
+    --primary-font: 'montserrat';
+    --title-font: 'montez';
+    --padding: 1rem;
+    --margin: 1rem;
+    --font-size: 1rem;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--primary-font);
+    color: var(--text-color);
+
+}
+
+.dining-room {
+    margin: 0;
+    max-height: 700px;
+    min-height: 600px;
+    background-image: url("pictures/dining_room.png");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: var(--light);
+    font-family: var(--title-font);
+    font-size: calc(var(--font-size)*5);
+
+}
+
+.contact-page {
+    width: 100vw;
+    display: inline-flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: calc(var(--margin)*5);
+}
+
+.right-side,
+.left-side {
+    width: 20vw;
+}
+
+/*------------------------------*/
+/*Style partie gauche de la page*/
+/*------------------------------*/
+
+.left-side h2 {
+    padding-bottom: calc(var(--padding)*2);
+}
+
+.contact-info {
+    display: inline-flex;
+    gap: 35px;
+
+}
+
+.contact-left,
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    padding-top: calc(var(--padding));
+}
+
+
+/*------------------------------*/
+/*Style partie droite de la page*/
+/*------------------------------*/
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side h2 {
+    padding-bottom: calc(var(--padding)*2);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#name,
+#email,
+#subject,
+#message {
+
+    border-radius: .5rem;
+    background-color: var(--light);
+    box-shadow: -2px 3px 5px rgb(0 0 0 / 20%);
+    border: none;
+    padding: var(--padding);
+    margin-bottom: var(--margin);
+    font-family: var(--primary-font);
+}
+
+#email,
+#subject,
+#message {
+    margin-top: var(--margin);
+}
+
+#message {
+    resize: none;
+}
+
+.right-side p {
+    padding-bottom: calc(var(--padding));
+    padding-top: calc(var(--padding));
+}
+
+.check-checkbox {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding-bottom: calc(var(--padding)*2);
+    margin-top: calc(var(--margin));
+}
+
+#button-contact {
+    width: 100px;
+    height: 40px;
+    margin-bottom: calc(var(--padding)*4);
+    margin-top: calc(var(--padding)*2);
+    background: var(--primary);
+    color: var(--light);
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+
+    box-shadow: -2px 5px 10px rgb(0 0 0 / 20%);
+    border: none;
+    cursor: pointer;
+}
+
+#button-contact:hover {
+    box-shadow: none;
+}
+
+/*------------------------------*/
+/*Style partie map de la page*/
+/*------------------------------*/
+
+.map {
+    width: 100vw;
+}
+
+/*----------------------------------*/
+/*Style responsive breakpoint 1500px*/
+/*----------------------------------*/
+
+@media screen and (max-width:1500px) {
+
+    .left-side,
+    .right-side {
+        width: 35vw;
+    }
+}
+
+/*----------------------------------*/
+/*Style responsive breakpoint 1300px*/
+/*----------------------------------*/
+
+@media screen and (max-width:1300px) {
+    .dining-room {
+        font-size: calc(var(--font-size)*3);
+        max-height: 500px;
+        min-height: 300px;
+    }
+
+    .left-side,
+    .right-side {
+        width: 40vw;
+    }
+}
+
+/*---------------------------------*/
+/*Style responsive breakpoint 768px*/
+/*---------------------------------*/
+
+@media screen and (max-width:768px) {
+    .dining-room {
+        font-size: calc(var(--font-size)*3);
+        max-height: 500px;
+        min-height: 300px;
+    }
+
+    .contact-page {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-side,
+    .right-side {
+        width: 50vw;
+    }
+}
+
+/*-----------------------------*/
+/*Style page result_contact.php*/
+/*-----------------------------*/
+
+.result-contact-body {
+    background-color: var(--background-color);
+    font-family: var(--primary-font);
+}
+
+.result-contact-main {
+    width: 100vw;
+}
+
+.result-contact-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.return-title {
+    font-family: var(--title-font);
+    font-size: calc(var(--font-size)*4);
+    text-align: center;
+}
+
+
+.result-contact-ul {
+    width: 45vw;
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: calc(var(--padding)*2);
+    padding-top: calc(var(--padding));
+    border-radius: .5rem;
+    box-shadow: -2px 3px 5px rgb(0 0 0 / 20%);
+    border: none;
+    font-size: calc(var(--font-size)*1.2);
+
+}
+
+.result-contact-li {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: var(--padding);
+}
+
+.result-contact-button {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: var(--margin);
+    background: var(--primary);
+    color: var(--light);
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+
+    box-shadow: -2px 5px 10px rgb(0 0 0 / 20%);
+    border: none;
+    cursor: pointer;
+}
