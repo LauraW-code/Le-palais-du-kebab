@@ -30,7 +30,7 @@
                 <?php $select = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];?>
                 <div class="personnes">
                     <label class="label_resa">Nb personnes</label>
-                    <select name="personnes" required aria-required="true" data-selected>
+                    <select class='nbPers' name="personnes" required aria-required="true" data-selected>
                     <option value="">Nb personnes</option>;
                     <?php
                     foreach ($select as $index => $value) {

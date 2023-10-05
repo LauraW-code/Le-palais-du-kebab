@@ -5,21 +5,21 @@
     <link href="https://fonts.cdnfonts.com/css/montez" rel="stylesheet">
 </head>
 
-<body>
+<body class="main-contact-body">
     <?php
     include 'data_contact.php';
     ?>
     <main>
         <div class="dining-room">
-            <h1>Contactez-nous</h1>
-        </div>
+            </div>
+            <h2 class="h2-contact-page">Contactez-nous</h2>
         <div class="contact-page">
-
+        
             <!-------------------------------------->
             <!--/Partie gauche de la page contact/-->
             <!-------------------------------------->
             <div class="left-side">
-                <h2>Informations de contact</h2>
+                <h3>Informations de contact</h3>
                 <p>Pour toutes questions ou demande, vous pouvez nous contacter directement par téléphone, par mail, ou
                     via
                     le
@@ -36,7 +36,7 @@
                         <p>15 rue de Paris, 57160 Rozérieulles</p>
                     </div>
                 </div>
-                <h3>Horaires d'ouverture:</h3>
+                <h4>Horaires d'ouverture:</h4>
                 <div class="contact-info">
                     <div class="contact-left">
                         <p>Dimanche au Vendredi</p>
@@ -52,11 +52,11 @@
             <!-------------------------------------->
             <!--/Partie droite de la page contact/-->
             <!-------------------------------------->
-            <form class="right-side" id="send-message" action="result_contact.php" method="$_POST">
-                <h2>Formulaire de contact</h2>
+            <form class="right-side" id="send-message" action="result_contact.php" method="post">
+                <h3>Formulaire de contact</h3>
                 <div class="contact-form">
-                    <input type="text" id="name" size="40" placeholder="Votre nom et prénom *" required>
-                    <input type="text" id="email" size="40" placeholder="Votre adresse email *" required>
+                    <input type="text" id="name" name="firstName" size="40" placeholder="Votre nom et prénom *" required>
+                    <input type="text" id="email" name="email" size="40" placeholder="Votre adresse email *" required>
                     <select name="messageObject" id="subject" required>
                         <option value="">Veuillez sélectionner...</option>
                         <?php
@@ -64,9 +64,8 @@
                         echo "<option value=\"" .$value ."\">" . $value . "</option>";
                     }
                     ?>
-
-
-                    <textarea id="message" cols="40" rows="10" size="40" placeholder="Votre message *"
+                    </select>
+                    <textarea id="message" name="message" cols="40" rows="10" size="40" placeholder="Votre message *"
                         required></textarea>
                 </div>
                 

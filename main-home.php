@@ -1,7 +1,7 @@
 
 <body>
     <div class="boite">
-        <main>
+        <main class="boite-main-home">
             <div class="container-home">
                 <ul class="carousel-home">
                     <li> <img src="pictures/carousel 4.jpg"> </li>

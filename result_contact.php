@@ -1,4 +1,4 @@
-
+<?php ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,8 +17,8 @@
         </header>
         <?php
 
-        //var_dump($_POST);
         $form=[$_POST];
+        //var_dump($_POST);
 
         ?>
         <main class="result-contact-main">

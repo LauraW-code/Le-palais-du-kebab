@@ -1,6 +1,24 @@
+:root {
+    --primary: #33A037;
+    --light: white;
+    --background-color: #faf0de;
+    --text-color:#4A4A4A;
+    --primary-font: 'montserrat';
+    --title-font: 'montez';
+    --padding:1rem;
+    --margin:1rem;
+    --font-size:1rem;
+}
 
-
-body {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-font);
+    list-style: none;
+    text-decoration: none;
+}
+.main-contact-body {
     background-color: var(--background-color);
     font-family: var(--primary-font);
     color: var(--text-color);
@@ -16,11 +34,15 @@ body {
     background-position: bottom;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    color: var(--light);
-    font-family: var(--title-font);
-    font-size: calc(var(--font-size)*5);
+    align-items: flex-end; 
+}
 
+.h2-contact-page{
+    color: var(--text-color);
+    font-family: var(--title-font);
+    font-size: calc(var(--font-size)*3.5);
+    text-align: center;
+    padding-top: calc(var(--padding)*3);
 }
 
 .contact-page {
@@ -28,7 +50,7 @@ body {
     display: inline-flex;
     justify-content: center;
     gap: 70px;
-    margin-top: calc(var(--margin)*5);
+    margin-top: calc(var(--margin)*4);
 }
 
 .right-side,
@@ -40,14 +62,18 @@ body {
 /*Style partie gauche de la page*/
 /*------------------------------*/
 
-.left-side h2 {
+.left-side h3 {
     padding-bottom: calc(var(--padding)*2);
 }
 
 .contact-info {
     display: inline-flex;
     gap: 35px;
+    padding-bottom: var(--padding);
+}
 
+.contact-left p, .contact-right p{
+    padding-top: calc(var(--padding)/2);
 }
 
 .contact-left,
@@ -67,7 +93,7 @@ body {
     flex-direction: column;
 }
 
-.right-side h2 {
+.right-side h3 {
     padding-bottom: calc(var(--padding)*2);
 }
 
@@ -217,6 +243,7 @@ body {
     font-family: var(--title-font);
     font-size: calc(var(--font-size)*4);
     text-align: center;
+    padding-bottom:calc(var(--padding)*2);
 }
 
 
@@ -238,18 +265,18 @@ body {
     display: flex;
     justify-content: flex-start;
     padding-top: var(--padding);
+    padding-left: var(--padding);
 }
 
 .result-contact-button {
     display: flex;
     justify-content: flex-start;
-    margin-top: var(--margin);
+    margin-top:calc(var(--margin)*2);
     background: var(--primary);
     color: var(--light);
     border-radius: 10px;
     padding: 12px;
     font-weight: bold;
-
     box-shadow: -2px 5px 10px rgb(0 0 0 / 20%);
     border: none;
     cursor: pointer;

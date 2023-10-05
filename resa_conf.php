@@ -1,8 +1,6 @@
 <?php include __DIR__ . '/include/navbar.php'; ?>
-<body>
-    <header class="table">
-        
-    </header>
+
+    
     <section class="confirmation">
         <?php
             echo 'Merci pour votre demande de réservation.' . '<br/>';
@@ -11,8 +9,8 @@
         ?>
     </section>
 </br>
-    <div class='logo'>
+    <div class='logo_resa'>
     <img src=pictures/LogoPKv2.png> </img>
     </div>
-</body>
+
 </html>

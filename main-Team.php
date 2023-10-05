@@ -8,14 +8,14 @@
             <p>D'origine turque, il a su développer une plaque tournante de kebab dans le voisinage.</p>
             <p>L'équipe ci-dessous, formée par ses soins saura vous satisfaire.</p>
         </section>
-        <section class="team-images">
+        <section class="team-images-responsive">
+        <?php foreach($cardTeam as $key=>$values): ?>
             <div class="item-team">
-            <?php foreach($cardTeam as $key=>$values): ?>
                 <img src="<?= $values['image']?>" alt="Laura">
                 <h3 class="card-title"><?= $values['prénom']?></h3>
                 <p><?= $values['description']?></p>
-                <?php endforeach ?>
             </div>
+        <?php endforeach ?>
         </section>
        
         <section class="carousel">

@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-main {
+.boite-main-home{
     flex: 1;
     margin-top: 2vh;
     text-align: center;
@@ -57,18 +57,10 @@ main {
     box-shadow: 5px 5px 5px 5px rgb(65, 63, 63);
 }
 
-@media screen and (max-width:800px) {
-    .box1 {
+@media screen and (max-width:768px) {
+    .broche {
         width: 15vh;
         height: 30vh;
-    }
-}
-
-
-@media screen and (max-width:800px) {
-    .box2 {
-        top: 38%;
-        right: 11%;
     }
 }
 

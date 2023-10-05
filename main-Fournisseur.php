@@ -1,5 +1,6 @@
 
 <body>
+    <div  class="main-fournisseurs-body">
     <div class="top">
         <h2 class="title-h2-fournisseur"> Nos fournisseurs ont du talent </h2>
     </div>
@@ -68,7 +69,7 @@
             </h6>
         </div>
         <div class="boxO"><img class="image"
-                src="https://media.discordapp.net/attachments/1156580466166595644/1159428103978893442/mash_up_yavuz.png?ex=6530fc91&is=651e8791&hm=5906a6601b441f8c1243293d0563ce4f51c273b7a2625abf585b4fc99fa32a9c&=&width=676&height=676www" />
+                src="/pictures/mash_up_yavuz.png" />
         </div>
         <div class="boxN"><img class="image1"
                 src="https://media.discordapp.net/attachments/1156580466166595644/1157304076221022228/swaglapine_None_2f9b986e-2f40-4e0e-a6bc-e4a00370fce0.png?ex=651e0da9&is=651cbc29&hm=60dd335a42c5c82930ad8bb4232d0485096418567308404d6ee79908d5fa48d5&=&width=676&height=676"
@@ -101,3 +102,4 @@
         </div>
     </div>
     </div>
+</div>

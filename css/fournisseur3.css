@@ -13,8 +13,8 @@
     .tomate {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin-left: 0;
+        width: 80%;
+    
         padding-left: 0;
         max-height: 2000px;
     }
@@ -24,7 +24,7 @@
         justify-content: center;
     }
 
-    .boxH {
+    .boxD {
         margin-left: 15%;
         margin-right: 15%;
         margin-top: 10%;
@@ -38,8 +38,7 @@
     .salade {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin-left: 0;
+        width: 80%;
         padding-left: 0;
         max-height: 2000px;
     }
@@ -61,8 +60,7 @@
     .pain {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin-left: 0;
+        width: 80%;
         padding-left: 0;
         max-height: 2000px;
     }
@@ -84,8 +82,7 @@
     .viande {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin-left: 0;
+        width: 80%;
         padding-left: 0;
         max-height: 2000px;
     }
@@ -107,8 +104,7 @@
     .frite {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin-left: 0;
+        width: 80%;
         padding-left: 0;
         max-height: 2000px;
     }

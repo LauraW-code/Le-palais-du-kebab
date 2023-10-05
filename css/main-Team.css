@@ -26,13 +26,8 @@
  .maitre-kebabier p{
    text-align: center;
  }
- .team-images{
-    background-color: var(--background-color);
-     display: none;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: center;
-     padding: var(--padding);
+ .team-images-responsive{
+    display: none;
  }
  .item-team{
      width: 300px;
@@ -79,15 +74,43 @@
     color: var(--text-color);
  }
 
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 360px){
     .maitre-kebabier{
         padding-bottom: calc(var(--padding));
     }
     .maitre-kebabier p{
         display: none;
     }
-    .team-images{
-    display: flex;
+    .team-images-responsive{
+        display: flex;
+        background-color: var(--background-color);
+        flex-direction: row;
+        justify-content: center;
+        padding: var(--padding);
+        flex-wrap: wrap;
+    }
+    .carousel{
+    display: none;
+    }
+    .card-title{
+        padding-bottom: 0;
+    }
+ }
+
+@media screen and (min-width: 361px) and (max-width: 768px) {
+    .maitre-kebabier{
+        padding-bottom: calc(var(--padding));
+    }
+    .maitre-kebabier p{
+        display: none;
+    }
+    .team-images-responsive{
+        display: flex;
+        background-color: var(--background-color);
+        flex-direction: row;
+        justify-content: center;
+        padding: var(--padding);
+        flex-wrap: wrap;
     }
     .carousel{
     display: none;
@@ -96,4 +119,5 @@
         padding-bottom: 0;
     }
 }
+
  
