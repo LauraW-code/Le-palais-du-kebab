@@ -9,7 +9,7 @@ $navbar= [
     'title'=> 'Reservation',
     ],
     [
-    'link'=>'/Fournisseurs.php',
+    'link'=>'/fournisseur.php',
     'title'=> 'Nos fournisseurs',
     ],
     [

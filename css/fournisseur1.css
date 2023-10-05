@@ -10,7 +10,7 @@
 }
 
 /* h2 */
-h2 {
+.title-h2-fournisseur {
     margin-top: 75px;
     padding-bottom: 75px;
     font-size: 85px;
@@ -64,7 +64,7 @@ body {
     color: white;
 }
 
-h3 {
+.title-h3-fournisseur  {
     color: white;
     font-family: "Montez";
     font-size: 40px;
@@ -119,7 +119,7 @@ h3 {
     color: white;
 }
 
-h4 {
+.title-h4-fournisseur  {
     color: white;
     font-family: "Montez";
     font-size: 40px;
@@ -172,7 +172,7 @@ h4 {
     color: white;
 }
 
-h5 {
+.title-h5-fournisseur  {
     color: white;
     font-family: "Montez";
     font-size: 40px;
@@ -224,7 +224,7 @@ h5 {
     color: white;
 }
 
-h6 {
+.title-h6-fournisseur {
     color: white;
     font-family: "Montez";
     font-size: 40px;

@@ -27,34 +27,34 @@ header {
     align-items: center;
     justify-content: center;
     min-height: 500px;
-    background-image: url("pictures/table.jpg");
+    background-image: url("/pictures/table.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     color: var(--light);
     padding: .5rem;
 }
-h1 {
+.title-head-menu{
     font-family: var(--primary-font);
     color: black;
     text-align: center;
     font-size: 4rem;
     padding-top: 2em;
 }
-main {
+.main-menu {
     font-family: var(--primary-font);
     margin: 0;
     line-height: 1.5;
     background-color:#fff;
 }
-h2 {
+.title-menu {
     font-family: 'Montez';
     text-align: center;
     font-size: 3rem;
     padding-top: var(--padding);
     margin-bottom: var(--margin);
 }
-Form {
+/*Form {
     text-align: left;
     margin:auto;
     width: 38em;
@@ -85,17 +85,19 @@ button {
     margin-left:11rem;
     box-shadow: -2px 5px 10px rgb(0 0 0 / 20%);
 }
-.img-menu {
-    max-width: 100vw;
-    box-shadow: -2px 3px 5px rgb(0 0 0 / 20%);
-}
-.img-container {
+*/
+
+.img-container-menu {
     height: 300px;
     overflow: hidden;
     border-radius: 20px;
 }
-.img-container p{ 
+.img-container-menu p{ 
     padding: calc(1.5*var(--padding)) 0;
     text-align: center;
     margin: 0 auto;
+}
+.img-container-menu img{
+    max-width: 100vw;
+    box-shadow: -2px 3px 5px rgb(0 0 0 / 20%);
 }

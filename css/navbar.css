@@ -45,13 +45,13 @@ nav h1 {
     display: block;
     text-decoration: none;
     color: var(--light);
-    padding-bottom: calc(var(--padding)*0.5);
+    padding: calc(var(--padding)*0.5) calc(var(--padding)*0.75);
 }
 .navbar-links li a:hover{
     color: var(--primary);
 }
 .navbar-links li:hover {
-    background-color: var(--light);
+    background-color: var(--background-color);
 }
 
 .toggle-button {

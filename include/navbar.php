@@ -10,7 +10,7 @@
         <script src="script.js" defer></script>
         <nav>
         <?php include 'navarLinks.php' ?>
-            <a href="/menu.html">
+            <a href="/home.php">
             <img src="/pictures/LogoPKv2.png" width="100px">
             </a>
             <h1>Le Palais du Kebab</h1>

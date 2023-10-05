@@ -52,7 +52,7 @@
             <!-------------------------------------->
             <!--/Partie droite de la page contact/-->
             <!-------------------------------------->
-            <form class="right-side" id="send-message" action="contact2.html" method="$_POST">
+            <form class="right-side" id="send-message" action="result_contact.php" method="$_POST">
                 <h2>Formulaire de contact</h2>
                 <div class="contact-form">
                     <input type="text" id="name" size="40" placeholder="Votre nom et prénom *" required>

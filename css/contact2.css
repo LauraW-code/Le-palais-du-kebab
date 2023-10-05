@@ -1,14 +1,4 @@
-:root {
-    --primary: #33A037;
-    --light: white;
-    --background-color: #faf0de;
-    --text-color: #4A4A4A;
-    --primary-font: 'montserrat';
-    --title-font: 'montez';
-    --padding: 1rem;
-    --margin: 1rem;
-    --font-size: 1rem;
-}
+
 
 body {
     background-color: var(--background-color);
@@ -21,7 +11,7 @@ body {
     margin: 0;
     max-height: 700px;
     min-height: 600px;
-    background-image: url("pictures/dining_room.png");
+    background-image: url("/pictures/dining_room.png");
     background-size: cover;
     background-position: bottom;
     display: flex;
