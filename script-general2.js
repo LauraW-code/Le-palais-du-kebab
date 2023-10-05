@@ -1,5 +1,6 @@
-const carousel = document.querySelector('.carousel');
-const images = document.querySelectorAll('.carousel li');
+const container = document.querySelector('.container-home');
+const carousel = document.querySelector('.carousel-home');
+const images = document.querySelectorAll('.carousel-home img');
 const imageWidth = images[0].clientWidth;
 let currentIndex = 0;
 
@@ -12,4 +13,4 @@ function updateCarousel() {
 	carousel.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
 }
 
-setInterval(nextSlide, 6200);
+setInterval(nextSlide, 2000);
