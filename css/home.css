@@ -39,7 +39,7 @@ main {
     max-height: 50vh;
 }
 
-.box1 {
+.broche {
     flex: 0;
     position: fixed;
     top: 15%;

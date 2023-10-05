@@ -1,5 +1,5 @@
     <body>
-        <?php include 'dataTeam.php'?>
+        <?php include 'data-Team.php'?>
         <h2 class="h2-team">L'équipe de choc</h2>
         <section class="maitre-kebabier">
             <img src="/pictures/yavuz.png" alt="maître kebabier">
