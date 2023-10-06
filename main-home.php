@@ -12,7 +12,7 @@
             </div>
             <script src="script-general2.js"> </script>
             <br> <br>
-            <h2 class="titre2-home"> Bienvenu au Palais du Kebab </h2>
+            <h2 class="titre2-home"> Bienvenue au Palais du Kebab </h2>
             <br>
             <br>
             <p class="texte-home"> Yavuz et son équipe sont heureux de vous accueillir au Palais du Kebab ! </p>

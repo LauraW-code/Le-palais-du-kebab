@@ -1,6 +1,6 @@
 
-<body>
-    <div  class="main-fournisseurs-body">
+<body class="main-fournisseurs-body">
+    <div >
     <div class="top">
         <h2 class="title-h2-fournisseur"> Nos fournisseurs ont du talent </h2>
     </div>

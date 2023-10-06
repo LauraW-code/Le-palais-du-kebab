@@ -16,13 +16,13 @@
         <form id="resaForm" action="/resa_conf.php" method="POST">
             <div class='reservation'>       
                 <div>
-                    <label class="label_resa" for="date_heure">Date & heure</label>
+                    <label class="label_resa" name='time' for="date_heure">Date & heure</label>
                     <input   
                     type="datetime-local"
                     id="meeting-time"
                     name="meeting-time"
-                    value= "2023-10-04T11:30"
-                    min= "2023-10-04T11:30"
+                    value= "2023-10-06T14:00"
+                    min= "2023-10-06T14:00"
                     max="2023-12-31T23:00"            
                     step="900"
                 />
@@ -44,7 +44,7 @@
             <h2 class="subtitle_resa">Vos coordonnées</h2>
             <div>
                 <label class="label_resa" for="name">Nom</label>
-                <input type="text" name="name" placeholder="Nom" required />
+                <input type="text" name="name" placeholder="Nom" required/>
             </div>
             <div>
                 <label class="label_resa" for="email">Adresse de messagerie</label>

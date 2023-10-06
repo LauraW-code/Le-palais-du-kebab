@@ -1,4 +1,31 @@
-<?php ?>
+<?php
+$data = array_map('trim', $_POST);
+
+$data= array_map('htmlentities', $data);
+
+$errors = [];
+if (!isset ($data['firstName']) || empty($data['firstName'])) {
+    $errors[]="Le nom est obligatoire";
+}
+if (!isset ($data['email'])|| empty($data['email'])) {
+    $errors[]="L'email est obligatoire";
+}
+if (!filter_var ($data['email'], FILTER_VALIDATE_EMAIL)){
+    $errors[]="L'email n'est pas au bon format";
+}
+if (!isset ($data['messageObject'])|| empty($data['messageObject'])) {
+    $errors[]="L'objet du message est obligatoire";
+}
+if (!isset ($data['message'])|| empty($data['message'])){
+    $errors[]="Le message est obligatoire";
+}
+if (!empty ($errors)){
+    foreach($errors as $keyError=>$ValueError){
+        echo $ValueError ."</br>" ;
+    }
+    die();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>

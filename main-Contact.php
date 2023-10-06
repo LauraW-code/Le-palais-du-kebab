@@ -52,12 +52,16 @@
             <!-------------------------------------->
             <!--/Partie droite de la page contact/-->
             <!-------------------------------------->
+
+
+
+
             <form class="right-side" id="send-message" action="result_contact.php" method="post">
                 <h3>Formulaire de contact</h3>
                 <div class="contact-form">
-                    <input type="text" id="name" name="firstName" size="40" placeholder="Votre nom et prénom *" required>
-                    <input type="text" id="email" name="email" size="40" placeholder="Votre adresse email *" required>
-                    <select name="messageObject" id="subject" required>
+                    <input type="text" id="name" name="firstName" size="40" placeholder="Votre nom et prénom *" >
+                    <input type="text" id="email" name="email" size="40" placeholder="Votre adresse email *" >
+                    <select name="messageObject" id="subject" >
                         <option value="">Veuillez sélectionner...</option>
                         <?php
                        foreach ($messageObject as $index => $value){
@@ -66,12 +70,12 @@
                     ?>
                     </select>
                     <textarea id="message" name="message" cols="40" rows="10" size="40" placeholder="Votre message *"
-                        required></textarea>
+                        ></textarea>
                 </div>
                 
                 <p>* Champs obligatoires</p>
                 <div class="check-checkbox">
-                    <input type="checkbox" id="conditions" required>
+                    <input type="checkbox" id="conditions" >
                     <label for="conditions">En soumettant ce formulaire, j’accepte que les informations saisies soient
                         utilisées
                         pour permettre de me recontacter dans le cadre de la relation commerciale qui découle de cette

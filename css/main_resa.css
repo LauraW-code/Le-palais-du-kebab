@@ -112,6 +112,9 @@ input, textarea{
 }
 
 /* Message de confirmation */
+.resa-conf-body{
+    background-color: var(--background-color);
+}
 .confirmation {
     display: flex;
     justify-content: center;
