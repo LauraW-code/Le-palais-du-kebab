@@ -1,7 +1,7 @@
 
 <body>
     <div class="boite">
-        <main>
+        <main class="main-home">
             <div class="container-home">
                 <ul class="carousel-home">
                     <li> <img src="pictures/carousel 4.jpg"> </li>
@@ -15,7 +15,7 @@
             <h2 class="titre2-home"> Bienvenu au Palais du Kebab </h2>
             <br>
             <br>
-            <p class="texte-home"> Yavouz et son équipe sont heureux de vous accueillir au Palais du Kebab ! </p>
+            <p class="texte-home"> Yavuz et son équipe sont heureux de vous accueillir au Palais du Kebab ! </p>
             <br>
             <br>
 
@@ -110,7 +110,7 @@
                         </g>
                     </g>
                 </svg>
-                <p class="texte-home"> Réservation </p>
+                <p class="texte-broche"> Réservation </p>
             </a>
             
         </aside>

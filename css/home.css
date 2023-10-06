@@ -3,14 +3,15 @@
     align-items: center;
 }
 
-main {
+.main-home {
     flex: 1;
-    margin-top: 2vh;
     text-align: center;
     align-items: center;
+    background-color: var(--background-color);
 }
 
 .container-home {
+    padding-top: 2vh;
     overflow: hidden;
     margin: 0 auto;
     position: relative;
@@ -60,7 +61,7 @@ main {
     flex-direction: column-reverse;
     flex: 0;
     position: fixed;
-    top: 15%;
+    top: 20%;
     right: 5%;
     width: 25vh;
     height: 40vh;
@@ -85,15 +86,16 @@ main {
 .titre2-home {
     font-family: var(--title-font);
     font-size: 4rem;
+    color: var(--text-color);
 }
 
 .texte-home {
     font-family: var(--primary-font);
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1rem;
     padding-bottom: 10px;
     padding-left: 15vh;
     padding-right: 15vh;
+    color: var(--text-color);
 }
 
 @media screen and (max-width:768px) {
@@ -102,4 +104,10 @@ main {
         padding-bottom: 0px;
         padding-top: 70px
     }
+}
+.texte-broche{
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight:600;
 }
