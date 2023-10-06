@@ -19,9 +19,6 @@ if (!isset ($data['phone'])|| empty($data['phone'])) {
 if (!isset ($data['personnes'])|| empty($data['personnes'])){
     $errors[]="Le nombre de personnes est requis";
 }
-if (!isset ($data['time'])|| empty($data['time'])){
-    $errors[]="La date et l'heure de réservation sont obligatoires";
-}
 if (!empty ($errors)){
     foreach($errors as $keyError=>$ValueError){
         echo $ValueError ."</br>" ;
