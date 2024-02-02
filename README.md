@@ -1,4 +1,4 @@
-![](https://visitor-badge.laobi.icu/badge?page_id=LauraW-code.CharalambosIoannou)
+![](https://komarev.com/ghpvc/?username=LauraW-code&color=blueviolet&style=for-the-badge)
 
 
 # Project 1
