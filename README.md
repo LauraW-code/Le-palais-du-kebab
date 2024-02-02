@@ -10,7 +10,7 @@ Its goal was to create a showcase website for a restaurant, to learn the ropes o
 
 Working as a team for the first time was very instructive, especially in terms of organizing tasks and time management.
 
-Techs used: 
+### Technologys and tools: 
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/php/php-plain.svg" width="40" height="40"/>&nbsp;
