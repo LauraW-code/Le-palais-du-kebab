@@ -1,7 +1,7 @@
 ![](https://komarev.com/ghpvc/?username=LauraW-code&color=blueviolet&style=for-the-badge)
 
 
-# Project 1
+## Project 1
 
 # Le Palais du Kebab
 
