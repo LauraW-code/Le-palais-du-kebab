@@ -1,4 +1,4 @@
-![](https://visitor-badge.laobi.icu/badge?page_id=LauraW-code.LauraW-code)
+![](https://visitor-badge.laobi.icu/badge?page_id=LauraW-code.CharalambosIoannou)
 
 
 # Project 1
