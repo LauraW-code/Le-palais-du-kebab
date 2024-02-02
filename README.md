@@ -1,4 +1,4 @@
-## Project 1
+## <p align="center">Project 1</p>
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=LauraW-code&color=blueviolet&style=for-the-badge"></p>
 
