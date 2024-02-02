@@ -1,4 +1,4 @@
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lauraw-code)](https://github.com/anuraghazra/github-readme-stats)
+![](https://visitor-badge.laobi.icu/badge?page_id=LauraW-code.LauraW-code)
 
 
 # Project 1
